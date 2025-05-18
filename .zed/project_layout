@@ -1,0 +1,28 @@
+# Project Layout Documentation
+
+## Overview
+This document describes the overall structure and organization of the project, helping developers and AI's understand where different components are located and how they relate to each other. This project is primarily developed in RUST and tested on Windows 11.
+
+## Directory Structure
+The project_layout file will be stored in the .zed folder! If it is not there you will build it. You will maintant it. Every change done to the file lay out you will update it.
+
+## Contributing
+When adding new features or components:
+
+1. Update this document to reflect new directory structures
+2. Add appropriate documentation in the `Doc's` folder
+3. Follow existing naming and organization patterns
+4. Update CHANGELOG.md with your changes
+5. For AI-driven changes, include:
+   - Detailed description of modifications
+   - Reasoning behind changes
+   - AI system identifier
+   - Date and time of modification
+
+## Change Management
+- All significant changes must be documented in CHANGELOG.md
+- AI systems will automatically log their modifications
+- Regular reviews of AI-driven changes are scheduled:
+  - Monthly: Quick review of recent changes
+  - Quarterly: Comprehensive review of all AI modifications
+  - Emergency reviews when necessary

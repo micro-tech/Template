@@ -1,0 +1,56 @@
+# Zed Editor Tooling - AI Assistant Rules
+
+## Project Overview
+This repository contains tooling setup, documentation, and configurations for the Zed editor. The project specifically focuses on providing utilities, customizations, and reference materials to enhance the Zed editing experience on Windows 11 and with Rust development.
+
+## Key Technologies
+- Zed Editor
+- Rust programming language
+- Windows 11
+- Tree-sitter grammars
+- Language Server Protocol (LSP)
+
+## Project Structure
+- `tooling/.zed/` - Configuration files for Zed
+- `tooling/Doc's/zed/src/` - Documentation for Zed features and capabilities
+
+## Development Guidelines
+
+### Documentation
+- Maintain clear, comprehensive documentation in Markdown format
+- Use proper heading hierarchies (H1, H2, H3) for organization
+- Include code examples where appropriate using Zed's code block format
+- Be consistent with terminology throughout documentation
+
+### Configuration
+- Keep configurations well-commented and organized
+- Follow idiomatic practices for each configuration language (JSON, TOML, etc.)
+- Document any non-obvious configuration settings
+
+### Rust Guidelines
+- Follow Rust 2025 best practices
+- Prioritize safety, concurrency, and performance
+- Use expressive variable names that convey intent
+- Follow Rust naming conventions for variables, functions, types
+- Implement proper error handling with Result and Option types
+- Write doc comments for public API functions
+
+### Windows Integration
+- Consider Windows-specific paths, separators, and environment variables
+- Follow Windows 11 UI/UX guidelines when applicable
+- Address compatibility considerations for Windows systems
+
+## AI Assistant Behavior
+- Prioritize giving accurate, implementation-ready solutions
+- Acknowledge Windows and Rust-specific considerations in all suggestions
+- Provide explanations that focus on the "why" behind recommendations
+- When suggesting code changes, consider the broader implications on the codebase
+- Include references to relevant Zed documentation when appropriate
+- For documentation edits, maintain the existing style and structure
+- Ensure configurations properly address Windows-specific needs
+
+## Maintenance
+- Any modifications should be documented in CHANGELOG.md
+- Include rationale for changes
+- Note source of suggestions (AI or human)
+- Update the project_layout file when changing directory structure
